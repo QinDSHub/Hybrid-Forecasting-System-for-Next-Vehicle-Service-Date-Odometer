@@ -24,6 +24,8 @@ This project addressed the challenge of predicting each customer's next vehicle 
 
 The solution combined LightGBM with a rule-based fallback approach to accommodate differences in data quality and distribution. The key business KPI was the proportion of predictions falling within 30 days of the actual service date.
 
+---
+
 ### Key Technical Approaches
 
 **Data Governance & Feature Engineering**
@@ -46,12 +48,16 @@ For the rule-based pipeline, the next service date and mileage were estimated by
 
 Evaluated model performance using MSE, MAE, R², and the proportion of predicted service dates falling within the client's 30-day tolerance window.
 
+---
+
 ### Tech Stack
 
 - **Machine Learning:** LightGBM
 - **Data Processing:** Python, Pandas, NumPy, PySpark
 - **Evaluation:** MSE, MAE, R², Business KPI Analysis
 - **Prediction Architecture:** Hybrid Machine Learning + Rule-Based Modeling
+
+---
 
 ### Results & Business Impact
 
@@ -62,6 +68,8 @@ The hybrid solution was accepted by the client and subsequently migrated from a 
 - **Rule-Based Model:** 31% of predicted service dates fell within the 30-day tolerance window.
 
 The solution provided a data-driven foundation for service reminders and personalized automotive parts recommendations, supporting more targeted customer engagement.
+
+---
 
 ### Key Contributions
 
